@@ -22,6 +22,7 @@ RUN pip --no-cache-dir install \
 	scikit-image \
     scipy \
     nose \
+    sklearn \
     tensorflow
 
 WORKDIR "/root"
