@@ -23,7 +23,7 @@ RUN pip --no-cache-dir install \
     scipy \
     nose \
     sklearn \
-    tensorflow
+    tensorflow-gpu
 
 WORKDIR "/root"
 CMD ["/bin/bash"]
