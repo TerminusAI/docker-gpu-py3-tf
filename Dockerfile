@@ -7,7 +7,7 @@ RUN apt-get update && \
     apt-get install -y --no-install-recommends \
         g++ \
         libblas-dev \
-        python-tk \
+        python3-tk \
         git && \
 	apt-get clean && \
 	apt-get autoremove && \
